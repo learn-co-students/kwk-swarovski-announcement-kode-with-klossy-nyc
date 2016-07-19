@@ -3,7 +3,7 @@ body, html {
 }
 
 #painting {
-    background-image: url(/images/gray-canvas.png);
+    background-image: url("/images/gray-canvas.png");
     width: 960px;
     height: 540px;
     margin-top: 30px;
@@ -13,12 +13,14 @@ body, html {
 }
 
 #karlie {
+    background-image: url("/images/karlie-kloss.png");
     width: 470px;
     height: 540px;
     float: right;
 }
 
 #top-box,#logo,#be-brilliant{
+
     width: 490px;
 }
 
@@ -31,6 +33,7 @@ body, html {
 }
 
 #be-brilliant{
+
     height: 50px;
     color: white;
     text-align: center;
@@ -59,5 +62,5 @@ body, html {
     float: left;
 }
 
-a { color: inherit; 
+a { color: inherit;
 }
